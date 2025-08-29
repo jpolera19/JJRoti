@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ's Roti Delight - Socials</title>
+    <meta name="description" content="Stay updated with JJ's Roti Delight! Follow us on social media for the latest news, events, and delicious Caribbean cuisine updates.">
+    <meta name="author" content="JJ's Roti Delight">
+    <meta name="keywords" content="JJ's Roti Delight, Caribbean cuisine, social media, updates, events, Toronto">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html#home" class="logo-link"><span class="logo">JJ's Roti Delight</span></a>
+            <button class="mobile-nav-toggle" aria-controls="nav-links" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <span class="hamburger-icon">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </span>
+                </button>
+            <ul id="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#menu">Menu</a></li>
+                <li><a href="index.html#takeout">Order Now</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="socials.html" class="nav-link">Socials</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <a href="tel:+1-416-519-3234" class="call-button button">Call Now!</a>
+        </div>
+    </nav>
+
+    <section class="full-page-section">
+
+        <div class="content-container events-section">
+            <h2>Upcoming Events</h2>
+
+            <div class="event-item">
+                <div class="event-image">
+                    <img src="images/caribana.jpg" alt="Caribbean Night">
+                </div>
+                <div class="event-details">
+                    <h3>Caribbean Night – Live Music & Vibes</h3>
+                    <p><strong>Date:</strong> August 15, 2025</p>
+                    <p><strong>Time:</strong> 6:00 PM – 10:00 PM</p>
+                    <p>Join us for a lively evening filled with Caribbean beats, delicious food, and a community vibe you won't want to miss.</p>
+                </div>
+            </div>
+
+            <div class="event-item" style="margin-top: 2rem;">
+                <div class="event-image">
+                    <img src="images/foodfest.jpg" alt="Food Festival">
+                </div>
+                <div class="event-details">
+                    <h3>Scarborough Food Festival</h3>
+                    <p><strong>Date:</strong> September 7, 2025</p>
+                    <p><strong>Location:</strong> Port Union Community Centre</p>
+                    <p>JJ’s Roti Delight will be featuring our famous curry goat and doubles at this year’s community festival. Come hungry!</p>
+                </div>
+            </div>
+
+            <div class="social-media" style="margin-top: 3rem;">
+                <h2>Follow Us on Instagram</h2>
+                <p>@jjsrotidelight</p>
+                <a href="https://www.instagram.com/jjsrotidelight/?hl=en" target="_blank" class="social-icon instagram-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px">
+                        <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2zm-.2 2.1c-1.7 0-3 1.3-3 3v8.4c0 1.7 1.3 3 3 3h8.4c1.7 0 3-1.3 3-3V7.8c0-1.7-1.3-3-3-3H7.6zM12 6.8c-3.1 0-5.6 2.5-5.6 5.6s2.5 5.6 5.6 5.6 5.6-2.5 5.6-5.6-2.5-5.6-5.6-5.6zm0 9.1c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zm6.4-9.3c-.7 0-1.3.6-1.3 1.3s.6 1.3 1.3 1.3 1.3-.6 1.3-1.3-.6-1.3-1.3-1.3z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© <span id="current-year"></span> JJ's Roti Delight. All Rights Reserved.</p>
+    </footer>
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
