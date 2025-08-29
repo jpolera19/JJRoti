@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JJ's Roti Delight - Authentic Caribbean Flavour</title>
+    <meta name="description" content="Discover authentic Caribbean flavors at JJ's Roti Delight in Port Union, Toronto. Indulge in our famous jerk chicken roti, curry goat, and other traditional dishes. Taste the Caribbean today!">
+    <meta name="author" content="JJ's Roti Delight">
+    <meta name="keywords" content="JJ's Roti Delight, Caribbean cuisine, Toronto, roti, jerk chicken, curry goat, doubles, plantain, oxtail, catering, takeout">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +18,10 @@
 
     <nav id="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo-link"><span class="logo">JJ's Roti Delight</span></a>
+            <a href="#home" class="logo-link">
+                <img src="images/logoround.png" alt="JJ's Roti Delight Logo" class="logo-img" onerror="this.onerror=null;this.style.display='none';">
+                <span class="logo">JJ's Roti Delight</span>
+            </a>
             <button class="mobile-nav-toggle" aria-controls="nav-links" aria-expanded="false">
                 <span class="sr-only">Menu</span>
                 <span class="hamburger-icon">
@@ -27,93 +34,115 @@
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About Us</a></li>
                 <li><a href="#menu" class="nav-link">Menu</a></li>
-                <li><a href="#takeout" class="nav-link">Take-out</a></li>
-                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                <li><a href="#takeout" class="nav-link">Order Now</a></li>
+                <li><a href="#catering" class="nav-link">Catering</a></li>
+                <li><a href="#socialspromo" class="nav-link">Socials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <a href="tel:+1-416-519-3234" class="call-button button">Call Now</a>
+            <a href="tel:+1-416-519-3234" class="call-button button">Call Now!</a>
         </div>
     </nav>
-
     <section id="home" class="full-page-section">
-        <div class="home-content">
-            <h1>JJ's Roti Delight</h1>
-            <p class="slogan">Authentic Caribbean Cuisine</p>
-        </div>
         <div class="overlay"></div>
+        <div class="home-content content-container">
+            <img src="images/logoround.png" alt="JJ's Roti Delight Logo" class="home-logo" onerror="this.onerror=null;this.style.display='none';">
+            <h1>JJ's Roti Delight</h1>
+            <p class="slogan">Authentic Caribbean Flavour</p>
+            <div class="home-buttons">
+                <a href="#menu" class="button">View Menu</a>
+                <a href="#takeout" class="button button-secondary">Order Now</a>
+            </div>
+        </div>
     </section>
 
     <section id="about" class="full-page-section">
         <div class="content-container about-content">
              <h2>About Us</h2>
-             <div class="about-flex">
+             <div class="about-card">
                  <div class="about-image">
                     <img src="images/owner.png" alt="Inside JJ's Roti Delight or owner photo" onerror="this.onerror=null;this.src='https://placehold.co/600x400/EFEFEF/AAAAAA?text=Our+Story';">
                  </div>
                  <div class="about-text">
-                    <p>Welcome to JJ's Roti Delight, a culinary gem where the vibrant flavors of the Caribbean come alive. We are passionate about bringing you authentic roti and a delightful array of traditional dishes, meticulously prepared with the freshest ingredients and a touch of homemade love. Nestled in the heart of Port Union, Toronto, our restaurant offers a warm and inviting atmosphere, perfect for a quick, flavorful lunch, a relaxed family dinner, or a lively gathering with friends. Come experience the taste of the islands right here at JJ's Roti Delight, your go-to destination for an unforgettable Caribbean culinary journey.</p>
+                    <p class="photo-caption">Welcome to JJ's Roti Delight!</p>
+                    <p>A culinary gem where the vibrant flavors of the Caribbean come alive. We are passionate about bringing you authentic roti and a delightful array of traditional dishes, meticulously prepared with the freshest ingredients and a touch of homemade love. Nestled in the heart of Port Union, Toronto, our restaurant offers a warm and inviting atmosphere, perfect for a quick, flavorful lunch, a relaxed family dinner, or a lively gathering with friends. Come experience the taste of the islands right here at JJ's Roti Delight!</p>
                  </div>
-            </div>
-
-            <div class="events-section">
-                <h3>Upcoming Events</h3>
-                <div class="event-item">
-                    <div class="event-image">
-                        <img src="images/jjonthelake.png" alt="Special event at JJ's Roti Delight" onerror="this.onerror=null;this.src='https://placehold.co/600x400/DEDEDE/AAAAAA?text=Event+Highlight';">
-                    </div>
-                    <div class="event-details">
-                        <p>Join JJ's Roti Delight for an unforgettable "JJ's on the Lake" boat cruise party, in association with Marquee Ent. and Memories Ent. Set sail on Sunday, July 14th, aboard the magnificent Stella Borealis for an afternoon of Caribbean delight! The cruise departs from 176 Cherry St. in Toronto, offering a vibrant escape from 1 PM to 5 PM. Tickets are just $60 and include lunch. For more information, contact us at 647-267-6627, 416-845-7040, or 647-880-1730.</p>
-                    </div>
-                </div>
-            </div>
+             </div>
         </div>
     </section>
 
     <section id="menu" class="full-page-section">
         <div class="content-container menu-content">
-            <h2>Our Menu</h2>
+            <h2>Menu</h2>
+            <p class="menu-intro">See some of our most popular dishes!</p>
             <div class="menu-grid">
                 <div class="menu-item">
-                    <img src="images/jerkchickenroti.jpg" alt="Menu Item 1" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Jerk+Chicken';"> <p class="caption">Jerk Chicken Roti</p>
+                    <img src="images/jerkchickenroti.jpg" alt="Jerk Chicken Roti" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Jerk+Chicken';"> <p class="caption">Jerk Chicken Roti</p>
                 </div>
                 <div class="menu-item">
-                    <img src="images/currygoat.jpg" alt="Menu Item 2" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Curry+Goat';"> <p class="caption">Curry Goat</p>
+                    <img src="images/currygoat.jpg" alt="Curry Goat" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Curry+Goat';"> <p class="caption">Curry Goat</p>
                 </div>
                 <div class="menu-item">
-                    <img src="images/oxtail.webp" alt="Menu Item 3" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Oxtail';"> <p class="caption">Oxtail with Rice & Peas</p>
+                    <img src="images/oxtail.webp" alt="Oxtail" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Oxtail';"> <p class="caption">Oxtail with Rice & Peas</p>
                 </div>
                 <div class="menu-item">
-                    <img src="images/doubles.jpg" alt="Menu Item 4" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Doubles';"> <p class="caption">Doubles</p>
+                    <img src="images/doubles.jpg" alt="Doubles" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Doubles';"> <p class="caption">Doubles</p>
                 </div>
                 <div class="menu-item">
-                    <img src="images/plantain.jpg" alt="Menu Item 5" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Plantain';"> <p class="caption">Plantain Sides</p>
+                    <img src="images/plantain.jpg" alt="Plantain" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Plantain';"> <p class="caption">Plantain Sides</p>
                 </div>
                 <div class="menu-item">
-                    <img src="images/currantrolls.jpg" alt="Menu Item 6" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Sorrel';"> <p class="caption">Currant Rolls</p>
+                    <img src="images/currantrolls.jpg" alt="Currant Rolls" onerror="this.onerror=null;this.src='https://placehold.co/300x200/CCCCCC/AAAAAA?text=Sorrel';"> <p class="caption">Currant Rolls</p>
                 </div>
+            </div>
+            <div class="full-menu-container">
+                <h3>Our Full Menu</h3>
+                <a href="images/samplemenu.png" target="_blank" title="Click to view the full menu in a new tab"><img src="images/samplemenu.png" alt="Full menu for JJ's Roti Delight" class="full-menu-image" onerror="this.onerror=null;this.src='https://placehold.co/800x1100/EFEFEF/AAAAAA?text=Full+Menu';"></a>
             </div>
         </div>
     </section>
 
     <section id="takeout" class="full-page-section">
-         <div class="content-container takeout-content">
-            <h2>Order Take-out</h2>
-            <div class="takeout-buttons">
-                <a href="tel:+1-416-519-3234" class="button order-now-button">Order Now (Call Us)</a>
-                <div class="delivery-buttons">
-                     <a href="https://www.ubereats.com/ca/store/jjs-roti-delight/xjypfwEfVK64ibBORD6wZw" target="_blank" rel="noopener noreferrer" class="button uber-eats-button">Order on Uber Eats</a>
-                     <a href="https://www.skipthedishes.com/jjs-roti-delight-5506" target="_blank" rel="noopener noreferrer" class="button skip-button">Order on SkipTheDishes</a>
-                </div>
-            </div>
-            <div class="slideshow-wrapper">
-                 <h3>Take-out Favourites</h3>
-                 <div class="slideshow-container">
-                     <img class="slide" src="images/takeout1.webp" alt="Takeout Food 1" onerror="this.onerror=null;this.src='https://placehold.co/600x400/BBBBBB/AAAAAA?text=Takeout+Special+1';" style="display: block;">
-                     <img class="slide" src="images/takeout2.jpeg" alt="Takeout Food 2" onerror="this.onerror=null;this.src='https://placehold.co/600x400/BBBBBB/AAAAAA?text=Takeout+Special+2';" style="display: none;">
-                     <img class="slide" src="images/takeout3.jpg" alt="Takeout Food 3" onerror="this.onerror=null;this.src='https://placehold.co/600x400/BBBBBB/AAAAAA?text=Takeout+Special+3';" style="display: none;">
-                </div>
-            </div>
-        </div>
+    <div class="content-container takeout-content">
+        <h2>Order Now</h2>
+
+    <div class="delivery-buttons">
+    <a href="https://www.ubereats.com/ca/store/jjs-roti-delight/xjypfwEfVK64ibBORD6wZw" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="button delivery-button">
+        🚙Order on Uber
+    </a>
+
+    <a href="https://www.skipthedishes.com/jjs-roti-delight-5506" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="button delivery-button">
+        🚗Order on Skip
+    </a>
+    </div>
+
+    <div class="direct-buttons">
+    <a href="tel:+1-416-519-3234" class="button phone-button">
+        📞 Order Now (Call for Pickup)
+    </a>
+    </div>
     </section>
+
+    <section id="catering" class="catering-preview">
+  <div class="container">
+    <h2>Catering</h2>
+    <p>Planning an event? We offer a full catering menu of traditional Caribbean dishes, customizable for any occasion.</p>
+    <a href="catering.html" class="button">🍴 View Catering Menu</a>
+  </div>
+</section>
+
+<section id="socialspromo" class="full-page-section">
+  <div class="content-container">
+    <h2>Stay in the Loop!</h2>
+    <p>From live music nights to community events, there's always something sizzling at JJ's Roti Delight. Don’t miss out — check out what’s coming up!</p>
+    <a href="socials.html" class="button">🌟 Visit Our Socials Page</a>
+  </div>
+</section>
 
     <section id="contact" class="full-page-section">
         <div class="content-container contact-content">
@@ -135,7 +164,7 @@
                     <p><strong>Address:</strong><br> 5506 Lawrence Ave E<br>Scarborough, ON, M1C 3B2</p>
                     <p><strong>Phone:</strong> <a href="tel:+1-416-519-3234">416-519-3234</a></p>
                     <p><strong>Hours:</strong><br> [Mon - Sat: 11am - 7pm]<br>[Sun: Closed]</p>
-                    <a href="https://www.google.com/search?sxsrf=AE3TifOSQ5xfGkbJOZ44m-irrmqD8OpjUA:1748630000442&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E9MH-OUhliSmcIWRdITCDPWvAQnlf-XJHMtX3oq-5LgcOx7__yg_rOw9-FpIispNf4GUklF5x9KVJzd9ACBKVC2Dl3gkxtrv1wUSuMPdcVMpG8AjOQ%3D%3D&q=JJ%27s+Roti+Delight+Reviews" target="_blank" rel="noopener noreferrer" class="button reviews-button">Read Our Reviews</a>
+                    <a href="https://www.google.com/search?sxsrf=AE3TifOSQ5xfGkbJOZ44m-irrmqD8OpjUA:1748630000442&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E9MH-OUhliSmcIWRdITCDPWvAQnlf-XJHMtX3oq-5LgcOx7__yg_rOw9-FpIispNf4GUklF5x9KVJzd9ACBKVC2Dl3gkxtrv1wUSuMPdcVMpG8AjOQ%3D%3D&q=JJ%27s+Roti+Delight+Reviews" target="_blank" rel="noopener noreferrer" class="button reviews-button">Read Our Reviews!</a>
 
                     <div class="social-media">
                         <p>Find us on Instagram!</p>
@@ -149,7 +178,6 @@
             </div>
         </div>
     </section>
-
     <footer>
         <p>© <span id="current-year"></span> JJ's Roti Delight. All Rights Reserved.</p>
     </footer>
